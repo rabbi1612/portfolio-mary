@@ -175,6 +175,7 @@ main section {
 }
 .resume-item-institute{
     color:  #757575;
+    box-shadow: 0px 6px 50px 0px;
 }
 .resume-colum{
     margin: 20px;
@@ -203,4 +204,10 @@ footer{
     border-radius: 5px;
     background-color: white;
 
+}
+.social-linkes a{
+    margin-right: 25px;
+}
+input, textarea{
+    width: 300px;
 }
