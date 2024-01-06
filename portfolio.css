@@ -1,3 +1,4 @@
+
 /* common shard style */
 
 body {
@@ -51,9 +52,10 @@ nav a {
 /* header style */
 .header {
     background: #FFF8F3;
-    background-image: url('header_bg.png');
-    background-position: bottom right;
+    background-image: url('developer.png');
     background-repeat: no-repeat;
+    background-position: bottom left;
+    
 }
 
 .banner {
@@ -61,6 +63,9 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url('header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 .banner .profile-pic {
@@ -88,9 +93,10 @@ nav a {
 
 /* main section */
 .about {
+    padding-top: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-top: 130px;
+    margin: 130px 0px;
 }
 
 .about-tittl {
@@ -101,8 +107,11 @@ nav a {
 }
 
 .about-text {
-    color: var(--Dark-03, #757575);
+    color: #757575;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
